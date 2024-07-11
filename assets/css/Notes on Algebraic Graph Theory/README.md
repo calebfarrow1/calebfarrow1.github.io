@@ -1,0 +1,1 @@
+Welcome to my notes on Godsil and Royle's <em>Algebraic Graph Theory</em>! I'll be focusing on the later chapters, with my main goal being to understand graph Laplacians. The folders help sort stuff by chapter. It's probably best to start with Chapter 1.
