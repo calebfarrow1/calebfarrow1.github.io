@@ -1,0 +1,1 @@
+I really need to learn category theory because it's truly miraculous that every discipline in math has these same fundamental structures. We have a thing (graph), so we need to be able to talk about things within things (subgraphs).
