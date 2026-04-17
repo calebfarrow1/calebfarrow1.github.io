@@ -1,145 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Caleb H. Farrow</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* I used a template from w3 schools. Thank you! */
-  
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  min-height: 100vh;
-  margin: 0;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #022851;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #FFBF00;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #FFBF00;
-  color: #022851;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Farrow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            margin-bottom: 5px;
+        }
+        .links a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
 
-<div class="navbar">
-  <a href="https://calebfarrow1.github.io/#">Home</a>
-  <a href="assets/css/CV_April_2025.pdf">CV</a>
-</div>
+    <h1>Caleb Farrow</h1>
+    <p>MS Applied Mathematics student at UC Davis with interests in data analysis, modeling, and research.</p>
 
-<div class="row">
-  <div class="side">
-     <img src="assets/css/cow_picture.jpg" alt="The author standing with a cow!" style="width:225px;height:305px;"> 
-    <h2>Caleb H. Farrow</h2>
-    <p>Applied math PhD student</p>
-    <p>University of California, Davis</p>
-  </div>
-  <div class="main">
-    <h1>About me</h1>
-    <p>I'm a first-year PhD student in applied mathematics at UC Davis. This past summer, I worked with the UC Davis Center for Neuroscience
-    in the Chaudhuri Lab, under the guidance of Rishidev Chaudhuri. I graduated with a BS
-    in Mathematics with departmental honors from the University of Oregon, where I had the privilege of working with both Chris Sinclair in random 
-    matrix theory and the Kern-Ralph colab in mathematical ecology and evolution.</p>
+    <div class="links">
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="cv.pdf" target="_blank">CV</a>
+        <a href="mailto:calebfarrow1@gmail.com">Email</a>
+    </div>
 
-    <p>If you're interested, you may read my <a href="assets/css/Thesis_for_defense-1.pdf">undergraduate thesis</a> or check out my
-    <a href="https://github.com/calebfarrow1/calebfarrow1.github.io/tree/main/assets/css/Notes%20on%20Algebraic%20Graph%20Theory"> incomplete notes on Godsil 
-      and Royle's Algebraic Graph Theory</a>.</p>
-  </div>
-</div>
+    <div class="section">
+        <h2>About</h2>
+        <p>
+            I am a graduate student in applied mathematics with experience in data analysis,
+            mathematical modeling, and computational research. My work focuses on applying
+            quantitative methods to real-world problems.
+        </p>
+    </div>
 
-<div class="footer">
-  <h2>Contact information</h2>
-  <p> Email: chfarrow at ucdavis dot edu </p>
-</div>
 
 </body>
 </html>
